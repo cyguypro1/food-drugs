@@ -1,0 +1,533 @@
+{
+  "Atorvastatin": {
+    "_aliases": ["atorvastatin", "sortis", "atorva"],
+    "grapefruit": {
+      "severity": "hoch",
+      "effect": "Grapefruit erhöht die Blutspiegel von Atorvastatin deutlich und steigert das Risiko für Muskelschäden.",
+      "mechanism": "Hemmung des Enzyms CYP3A4 im Darm.",
+      "recommendation": "Grapefruit und Grapefruitsaft vermeiden."
+    },
+    "alkohol": {
+      "severity": "mittel",
+      "effect": "Regelmäßiger Alkoholkonsum kann das Risiko für Leberschäden erhöhen.",
+      "mechanism": "Kombinierte Leberbelastung durch Alkohol und Statin.",
+      "recommendation": "Alkoholkonsum reduzieren."
+    },
+    "fettes essen": {
+      "severity": "niedrig",
+      "effect": "Sehr fettreiche Mahlzeiten können die Aufnahme leicht verändern.",
+      "mechanism": "Verzögerte Magenentleerung.",
+      "recommendation": "Normale Mahlzeiten sind unproblematisch."
+    }
+  },
+
+  "Simvastatin": {
+    "_aliases": ["simvastatin", "zocor"],
+    "grapefruit": {
+      "severity": "hoch",
+      "effect": "Grapefruit kann die Blutspiegel von Simvastatin massiv erhöhen.",
+      "mechanism": "Starke Hemmung von CYP3A4.",
+      "recommendation": "Grapefruit strikt vermeiden."
+    },
+    "alkohol": {
+      "severity": "mittel",
+      "effect": "Erhöhtes Risiko für Leberschäden bei regelmäßigem Konsum.",
+      "mechanism": "Leberbelastung durch Alkohol + Statin.",
+      "recommendation": "Nur in Maßen konsumieren."
+    },
+    "vitamin-k-gemüse": {
+      "severity": "niedrig",
+      "effect": "Kein direkter Einfluss, aber kann Cholesterinwerte langfristig beeinflussen.",
+      "mechanism": "Indirekte Stoffwechselwirkung.",
+      "recommendation": "Normale Mengen sind unproblematisch."
+    }
+  },
+
+  "Ibuprofen": {
+    "_aliases": ["ibuprofen", "nurofen", "dolormin"],
+    "alkohol": {
+      "severity": "mittel",
+      "effect": "Erhöht das Risiko für Magenblutungen.",
+      "mechanism": "Reizung der Magenschleimhaut durch Alkohol + NSAID.",
+      "recommendation": "Alkohol während der Einnahme vermeiden."
+    },
+    "kaffee": {
+      "severity": "niedrig",
+      "effect": "Koffein kann die schmerzlindernde Wirkung leicht verstärken.",
+      "mechanism": "Erhöhte Durchblutung und Rezeptorwirkung.",
+      "recommendation": "Unbedenklich in normalen Mengen."
+    },
+    "energy drink": {
+      "severity": "mittel",
+      "effect": "Kann Magenreizungen verstärken.",
+      "mechanism": "Koffein + Säuren belasten den Magen.",
+      "recommendation": "Bei empfindlichem Magen vermeiden."
+    }
+  },
+
+  "Paracetamol": {
+    "_aliases": ["paracetamol", "ben-u-ron", "acetaminophen"],
+    "alkohol": {
+      "severity": "hoch",
+      "effect": "Erhöht das Risiko für schwere Leberschäden.",
+      "mechanism": "Lebertoxische Metaboliten + Alkoholabbau.",
+      "recommendation": "Kein Alkohol während der Einnahme."
+    },
+    "fettes essen": {
+      "severity": "niedrig",
+      "effect": "Kann die Aufnahme leicht verzögern.",
+      "mechanism": "Verzögerte Magenentleerung.",
+      "recommendation": "Unbedenklich."
+    },
+    "kaffee": {
+      "severity": "niedrig",
+      "effect": "Keine relevante Interaktion.",
+      "mechanism": "Keine pharmakologische Wechselwirkung.",
+      "recommendation": "Normale Mengen sind unproblematisch."
+    }
+  },
+
+  "Amoxicillin": {
+    "_aliases": ["amoxicillin", "amoxypen"],
+    "milchprodukte": {
+      "severity": "niedrig",
+      "effect": "Milch kann die Aufnahme leicht verzögern.",
+      "mechanism": "Bindung an Calcium.",
+      "recommendation": "Kann mit oder ohne Nahrung eingenommen werden."
+    },
+    "alkohol": {
+      "severity": "niedrig",
+      "effect": "Kein direkter Einfluss, aber Alkohol schwächt das Immunsystem.",
+      "mechanism": "Systemische Belastung.",
+      "recommendation": "Während Infekten besser vermeiden."
+    },
+    "ballaststoffe": {
+      "severity": "niedrig",
+      "effect": "Sehr hohe Mengen können die Aufnahme verzögern.",
+      "mechanism": "Schnellere Darmpassage.",
+      "recommendation": "Normale Mengen sind unproblematisch."
+    }
+  },
+
+  "Pantoprazol": {
+    "_aliases": ["pantoprazol", "pantozol"],
+    "kaffee": {
+      "severity": "mittel",
+      "effect": "Kaffee kann die Magensäureproduktion trotz Pantoprazol erhöhen.",
+      "mechanism": "Stimulation der Säuresekretion.",
+      "recommendation": "Bei Reflux reduzieren."
+    },
+    "alkohol": {
+      "severity": "niedrig",
+      "effect": "Kann die Magenschleimhaut reizen.",
+      "mechanism": "Ethanol-induzierte Schleimhautreizung.",
+      "recommendation": "In Maßen konsumieren."
+    },
+    "scharfes essen": {
+      "severity": "niedrig",
+      "effect": "Kann Sodbrennen verstärken.",
+      "mechanism": "Reizung der Schleimhaut.",
+      "recommendation": "Bei Beschwerden reduzieren."
+    }
+  },
+
+  "Omeprazol": {
+    "_aliases": ["omeprazol", "antra"],
+    "kaffee": {
+      "severity": "mittel",
+      "effect": "Kaffee kann trotz Omeprazol Sodbrennen auslösen.",
+      "mechanism": "Stimulation der Säureproduktion.",
+      "recommendation": "Bei Reflux reduzieren."
+    },
+    "alkohol": {
+      "severity": "niedrig",
+      "effect": "Kann die Schleimhaut reizen.",
+      "mechanism": "Ethanolwirkung.",
+      "recommendation": "In Maßen."
+    },
+    "grüner tee": {
+      "severity": "niedrig",
+      "effect": "Kann die Wirkung leicht beeinflussen.",
+      "mechanism": "Polyphenole beeinflussen Enzyme.",
+      "recommendation": "Unbedenklich in normalen Mengen."
+    }
+  },
+
+  "Levothyroxin": {
+    "_aliases": ["levothyroxin", "l-thyroxin", "henning"],
+    "milchprodukte": {
+      "severity": "mittel",
+      "effect": "Calcium vermindert die Aufnahme von Levothyroxin.",
+      "mechanism": "Komplexbildung im Darm.",
+      "recommendation": "2 Stunden Abstand einhalten."
+    },
+    "kaffee": {
+      "severity": "mittel",
+      "effect": "Kaffee kann die Aufnahme deutlich reduzieren.",
+      "mechanism": "Schnellere Magenentleerung.",
+      "recommendation": "30 Minuten Abstand."
+    },
+    "sojaprodukte": {
+      "severity": "mittel",
+      "effect": "Soja kann die Aufnahme vermindern.",
+      "mechanism": "Bindung an Ballaststoffe.",
+      "recommendation": "Regelmäßige Einnahmezeiten beachten."
+    }
+  },
+
+  "Bisoprolol": {
+    "_aliases": ["bisoprolol", "concor"],
+    "alkohol": {
+      "severity": "mittel",
+      "effect": "Kann den Blutdruck stärker senken.",
+      "mechanism": "Verstärkte Vasodilatation.",
+      "recommendation": "Vorsicht bei größeren Mengen."
+    },
+    "salzersatz": {
+      "severity": "mittel",
+      "effect": "Kaliumreiche Salzersatzprodukte können Herzrhythmusstörungen fördern.",
+      "mechanism": "Kaliumanstieg im Blut.",
+      "recommendation": "Nur nach Rücksprache verwenden."
+    },
+    "lakritze": {
+      "severity": "mittel",
+      "effect": "Kann Blutdruck erhöhen und Wirkung abschwächen.",
+      "mechanism": "Glycyrrhizin erhöht Natriumretention.",
+      "recommendation": "Nur in kleinen Mengen."
+    }
+  },
+
+  "Metoprolol": {
+    "_aliases": ["metoprolol", "beloc"],
+    "alkohol": {
+      "severity": "mittel",
+      "effect": "Kann die blutdrucksenkende Wirkung verstärken.",
+      "mechanism": "Vasodilatation durch Alkohol.",
+      "recommendation": "Vorsichtig konsumieren."
+    },
+    "grapefruit": {
+      "severity": "mittel",
+      "effect": "Kann die Blutspiegel leicht erhöhen.",
+      "mechanism": "Hemmung von CYP2D6.",
+      "recommendation": "In Maßen konsumieren."
+    },
+    "salz": {
+      "severity": "niedrig",
+      "effect": "Hohe Mengen können den Blutdruck erhöhen.",
+      "mechanism": "Natriumretention.",
+      "recommendation": "Salzkonsum moderat halten."
+    }
+  },
+
+  "Ramipril": {
+    "_aliases": ["ramipril", "delix"],
+    "salzersatz": {
+      "severity": "hoch",
+      "effect": "Kaliumhaltige Salzersatzprodukte können zu gefährlich hohen Kaliumwerten führen.",
+      "mechanism": "ACE-Hemmer erhöhen Kaliumspiegel.",
+      "recommendation": "Nur nach ärztlicher Rücksprache verwenden."
+    },
+    "lakritze": {
+      "severity": "mittel",
+      "effect": "Kann den Blutdruck erhöhen und die Wirkung abschwächen.",
+      "mechanism": "Glycyrrhizin steigert Natriumretention.",
+      "recommendation": "Nur in kleinen Mengen konsumieren."
+    },
+    "alkohol": {
+      "severity": "mittel",
+      "effect": "Kann den Blutdruck stärker senken als erwartet.",
+      "mechanism": "Vasodilatation durch Alkohol.",
+      "recommendation": "Vorsichtig konsumieren."
+    }
+  },
+
+  "Lisinopril": {
+    "_aliases": ["lisinopril", "aceon"],
+    "salzersatz": {
+      "severity": "hoch",
+      "effect": "Kaliumreiche Produkte können zu Hyperkaliämie führen.",
+      "mechanism": "ACE-Hemmer erhöhen Kaliumspiegel.",
+      "recommendation": "Nur nach Rücksprache verwenden."
+    },
+    "alkohol": {
+      "severity": "mittel",
+      "effect": "Kann den Blutdruck stärker senken.",
+      "mechanism": "Vasodilatation.",
+      "recommendation": "In Maßen konsumieren."
+    },
+    "proteinshakes": {
+      "severity": "niedrig",
+      "effect": "Hohe Proteinmengen können Blutdruck leicht beeinflussen.",
+      "mechanism": "Veränderter Stoffwechsel.",
+      "recommendation": "Normale Mengen sind unproblematisch."
+    }
+  },
+
+  "Sertralin": {
+    "_aliases": ["sertralin", "zoloft"],
+    "alkohol": {
+      "severity": "mittel",
+      "effect": "Kann Müdigkeit und Schwindel verstärken.",
+      "mechanism": "ZNS-dämpfende Wirkung.",
+      "recommendation": "Alkohol möglichst vermeiden."
+    },
+    "grapefruit": {
+      "severity": "mittel",
+      "effect": "Kann die Blutspiegel von Sertralin erhöhen.",
+      "mechanism": "Hemmung von CYP3A4.",
+      "recommendation": "Grapefruit reduzieren."
+    },
+    "koffein": {
+      "severity": "niedrig",
+      "effect": "Kann Unruhe verstärken.",
+      "mechanism": "Stimulation des ZNS.",
+      "recommendation": "Bei Nervosität reduzieren."
+    }
+  },
+
+  "Metformin": {
+    "_aliases": ["metformin", "glucophage"],
+    "alkohol": {
+      "severity": "hoch",
+      "effect": "Erhöht das Risiko einer Laktatazidose.",
+      "mechanism": "Störung des Laktatstoffwechsels.",
+      "recommendation": "Alkohol vermeiden."
+    },
+    "fettes essen": {
+      "severity": "mittel",
+      "effect": "Kann Magen-Darm-Beschwerden verstärken.",
+      "mechanism": "Verzögerte Magenentleerung.",
+      "recommendation": "Leichte Mahlzeiten bevorzugen."
+    },
+    "ballaststoffe": {
+      "severity": "niedrig",
+      "effect": "Hohe Mengen können die Aufnahme leicht verzögern.",
+      "mechanism": "Schnellere Darmpassage.",
+      "recommendation": "Normale Mengen sind unproblematisch."
+    }
+  },
+
+  "Warfarin": {
+    "_aliases": ["warfarin", "coumadin"],
+    "vitamin-k-gemüse": {
+      "severity": "hoch",
+      "effect": "Kann die Wirkung von Warfarin deutlich abschwächen.",
+      "mechanism": "Vitamin K antagonisiert Warfarin.",
+      "recommendation": "Konstante Mengen einhalten."
+    },
+    "alkohol": {
+      "severity": "mittel",
+      "effect": "Kann die Blutgerinnung unvorhersehbar beeinflussen.",
+      "mechanism": "Leberstoffwechsel verändert.",
+      "recommendation": "Nur in Maßen."
+    },
+    "cranberry": {
+      "severity": "mittel",
+      "effect": "Kann die Wirkung verstärken und Blutungsrisiko erhöhen.",
+      "mechanism": "Beeinflussung des CYP-Metabolismus.",
+      "recommendation": "Regelmäßigen Konsum vermeiden."
+    }
+  },
+
+  "Doxycyclin": {
+    "_aliases": ["doxycyclin", "vibramycin"],
+    "milchprodukte": {
+      "severity": "mittel",
+      "effect": "Calcium vermindert die Aufnahme deutlich.",
+      "mechanism": "Komplexbildung im Darm.",
+      "recommendation": "2 Stunden Abstand einhalten."
+    },
+    "alkohol": {
+      "severity": "niedrig",
+      "effect": "Kann die Wirksamkeit leicht reduzieren.",
+      "mechanism": "Leberstoffwechsel.",
+      "recommendation": "In Maßen."
+    },
+    "eisenpräparate": {
+      "severity": "hoch",
+      "effect": "Eisen blockiert die Aufnahme fast vollständig.",
+      "mechanism": "Komplexbildung.",
+      "recommendation": "Mindestens 3 Stunden Abstand."
+    }
+  },
+
+  "Ciprofloxacin": {
+    "_aliases": ["ciprofloxacin", "cipro"],
+    "milchprodukte": {
+      "severity": "mittel",
+      "effect": "Calcium vermindert die Aufnahme.",
+      "mechanism": "Komplexbildung.",
+      "recommendation": "2 Stunden Abstand."
+    },
+    "kaffee": {
+      "severity": "mittel",
+      "effect": "Kann Koffeinwirkung verstärken.",
+      "mechanism": "Hemmung des Koffeinabbaus.",
+      "recommendation": "Koffein reduzieren."
+    },
+    "magnesium": {
+      "severity": "hoch",
+      "effect": "Magnesium blockiert die Aufnahme.",
+      "mechanism": "Komplexbildung.",
+      "recommendation": "3 Stunden Abstand."
+    }
+  },
+
+    
+  "Amlodipin": {
+    "_aliases": ["amlodipin", "norvasc"],
+    "grapefruit": {
+      "severity": "mittel",
+      "effect": "Kann die Blutspiegel von Amlodipin erhöhen und Blutdruck stärker senken.",
+      "mechanism": "Hemmung von CYP3A4.",
+      "recommendation": "Grapefruit in Maßen konsumieren."
+    },
+    "alkohol": {
+      "severity": "mittel",
+      "effect": "Kann Schwindel und Blutdruckabfall verstärken.",
+      "mechanism": "Vasodilatation durch Alkohol.",
+      "recommendation": "Vorsichtig konsumieren."
+    },
+    "salz": {
+      "severity": "niedrig",
+      "effect": "Hoher Salzkonsum kann die Wirkung abschwächen.",
+      "mechanism": "Erhöhung des Blutdrucks.",
+      "recommendation": "Salzkonsum moderat halten."
+    }
+  },
+
+  "Furosemid": {
+    "_aliases": ["furosemid", "lasix"],
+    "lakritze": {
+      "severity": "hoch",
+      "effect": "Kann Kaliumverlust verstärken und Herzrhythmusstörungen fördern.",
+      "mechanism": "Glycyrrhizin erhöht Natriumretention und Kaliumverlust.",
+      "recommendation": "Lakritze vermeiden."
+    },
+    "salz": {
+      "severity": "mittel",
+      "effect": "Hoher Salzkonsum schwächt die Wirkung ab.",
+      "mechanism": "Natriumretention.",
+      "recommendation": "Salz reduzieren."
+    },
+    "alkohol": {
+      "severity": "mittel",
+      "effect": "Kann Schwindel und Blutdruckabfall verstärken.",
+      "mechanism": "Vasodilatation.",
+      "recommendation": "Vorsichtig konsumieren."
+    }
+  },
+
+  "Clopidogrel": {
+    "_aliases": ["clopidogrel", "plavix"],
+    "grapefruit": {
+      "severity": "mittel",
+      "effect": "Kann die Aktivierung von Clopidogrel vermindern.",
+      "mechanism": "Hemmung von CYP3A4.",
+      "recommendation": "Grapefruit reduzieren."
+    },
+    "alkohol": {
+      "severity": "mittel",
+      "effect": "Erhöht das Blutungsrisiko.",
+      "mechanism": "Schleimhautreizung + Hemmung der Gerinnung.",
+      "recommendation": "Nur in Maßen."
+    },
+    "knoblauch": {
+      "severity": "mittel",
+      "effect": "Kann die Blutgerinnung zusätzlich hemmen.",
+      "mechanism": "Thrombozytenhemmung.",
+      "recommendation": "Große Mengen vermeiden."
+    }
+  },
+
+  "Rivaroxaban": {
+    "_aliases": ["rivaroxaban", "xarelto"],
+    "alkohol": {
+      "severity": "hoch",
+      "effect": "Erhöht das Risiko für gefährliche Blutungen.",
+      "mechanism": "Schleimhautreizung + Leberstoffwechsel.",
+      "recommendation": "Alkohol stark reduzieren."
+    },
+    "vitamin-k-gemüse": {
+      "severity": "niedrig",
+      "effect": "Kein direkter Einfluss, aber kann Gerinnung langfristig beeinflussen.",
+      "mechanism": "Indirekte Stoffwechselwirkung.",
+      "recommendation": "Normale Mengen sind unproblematisch."
+    },
+    "cranberry": {
+      "severity": "mittel",
+      "effect": "Kann die Blutungsneigung erhöhen.",
+      "mechanism": "Beeinflussung des Metabolismus.",
+      "recommendation": "Regelmäßigen Konsum vermeiden."
+    }
+  },
+
+  "Prednisolon": {
+    "_aliases": ["prednisolon", "decortin"],
+    "alkohol": {
+      "severity": "mittel",
+      "effect": "Erhöht das Risiko für Magenblutungen.",
+      "mechanism": "Schleimhautreizung.",
+      "recommendation": "Alkohol reduzieren."
+    },
+    "salz": {
+      "severity": "mittel",
+      "effect": "Kann Wassereinlagerungen verstärken.",
+      "mechanism": "Natriumretention.",
+      "recommendation": "Salzkonsum reduzieren."
+    },
+    "zucker": {
+      "severity": "mittel",
+      "effect": "Kann Blutzuckeranstieg verstärken.",
+      "mechanism": "Glukosestoffwechsel beeinflusst.",
+      "recommendation": "Zucker reduzieren."
+    }
+  },
+
+  "Escitalopram": {
+    "_aliases": ["escitalopram", "cipralex"],
+    "alkohol": {
+      "severity": "mittel",
+      "effect": "Kann Müdigkeit und Schwindel verstärken.",
+      "mechanism": "ZNS-Dämpfung.",
+      "recommendation": "Alkohol möglichst vermeiden."
+    },
+    "grapefruit": {
+      "severity": "mittel",
+      "effect": "Kann die Blutspiegel erhöhen.",
+      "mechanism": "Hemmung von CYP3A4.",
+      "recommendation": "Grapefruit reduzieren."
+    },
+    "koffein": {
+      "severity": "niedrig",
+      "effect": "Kann Nervosität verstärken.",
+      "mechanism": "Stimulation des ZNS.",
+      "recommendation": "Bei Unruhe reduzieren."
+    }
+  },
+
+  "Losartan": {
+    "_aliases": ["losartan", "lorzaar"],
+    "salzersatz": {
+      "severity": "hoch",
+      "effect": "Kann zu gefährlich hohen Kaliumwerten führen.",
+      "mechanism": "RAAS-Hemmung erhöht Kalium.",
+      "recommendation": "Nur nach Rücksprache verwenden."
+    },
+    "alkohol": {
+      "severity": "mittel",
+      "effect": "Kann Blutdruck stärker senken.",
+      "mechanism": "Vasodilatation.",
+      "recommendation": "Vorsichtig konsumieren."
+    },
+    "lakritze": {
+      "severity": "mittel",
+      "effect": "Kann Blutdruck erhöhen und Wirkung abschwächen.",
+      "mechanism": "Glycyrrhizin-Effekt.",
+      "recommendation": "Nur in kleinen Mengen."
+    }
+  }
+}
+
+
+
